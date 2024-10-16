@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family:  sans-serif;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#wraper {
+    margin: 20px 100px;
+}
+#header {
+    height: 300px;
+}
+#header .header1 {
+    padding: 10px 120px;
+    background: #634C9F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header .header1 p{
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+}
+#header .header1 p.date-text{
+    color: #cbc3df;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#header .header1 p.date-text b {
+    
+    font-size: 24px;
+    color: #fff;
+    font-weight: 750;
+}
+#header .header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 145px  10px 115px;
+}
+#header .header2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header .header2 ul li{
+    margin-right: 12px;
+    font-size: 16px;
+}
+#header .header2 ul li a{
+    color:  #6B7280;
+}
+#header .header2 ul hr{
+    height: 15px;
+    margin-right: 12px;
+}
+#header .header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px;
+}
+#header .header3 .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header3 .left .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    font-size: 14px;
+    color:  #6B7280;
+}
+
+#header .header3 form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header3 form input{
+    width: 400px;    
+    margin: 0;
+    border: none;
+    height: 50px;
+    padding: 0 15px ;
+    background: #F3F4F6;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#header .header3 form button{
+    width: 50px;    
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: #F3F4F6;
+}
+#header .header3 .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header3 .right .box{
+    margin-right: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+#header .header3 .right .box .order-number{
+    background: #DC2626;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    top: -30px;
+    right: -35px;
+}
+#header .header4 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 110px;
+}
+
+#header .header4 nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header4 nav ul li a{
+    margin-right: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+#header .header4 nav ul.left  li.color a{
+    color:  #634C9F;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #634C9F;
+}
+#header .header4 nav ul.right li a.sale-button{
+    background: linear-gradient(90deg, #DC2626 0%, #EA580C 100%);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 12px;
+}
